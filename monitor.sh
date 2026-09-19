@@ -23,3 +23,11 @@ uptime -p
 echo ""
 echo "Kernel Version:"
 uname -r
+
+echo ""
+echo "Memory Usage"
+free -h
+
+echo ""
+echo "Disk Usage:"
+df -h
